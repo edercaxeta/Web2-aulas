@@ -42,7 +42,8 @@ while True:
 
     soma = salario + salario*(percentual/100)
     aumentoReal = soma - (soma*3.8/100)
-    print(f"O valor do aumeto foi de: R$ {percentual:.2f}")
+    valorAumento= soma - salario
+    print(f"O valor do aumeto foi de: R$ {valorAumento:.2f}")
     print(f"o novo salário, após o aumento é: {soma:.2f}")
     print(f"o valor do aumento real, descontado a inflação é: {aumentoReal:.2f}")
     print("=================================================")
